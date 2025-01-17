@@ -22,4 +22,8 @@ describe('Password Validation', () => {
     expect(validatePassword('ipl123!abc')).toBe(false);
 });
 
+  test('should pass for a valid password', () => {
+    expect(validatePassword('Valid123!')).toBe(true);
+  });
+
 });
