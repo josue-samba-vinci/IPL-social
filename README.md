@@ -8,4 +8,4 @@ Vous pourrez retrouver dans ce repository le code associé à l'examen de devops
 
 Cet exercice a été codé en suivant la méthode TDD et en utilisant le framework de test "Jest" par Josué SAMBA DIANZUNGU.
 
-Afin de lancer les tests taper la commande "npm test" dans le terminal.
+Afin de lancer les tests taper la commande "npm install --save-dev jest" et ensuite "npm test" dans le terminal.
