@@ -19,6 +19,7 @@ describe('Password Validation', () => {
 
   test('should fail if password contains "IPL" (case insensitive)', () => {
     expect(validatePassword('IPL123!abc')).toBe(false);
+    expect(validatePassword('ipl123!abc')).toBe(false);
 });
 
 });
