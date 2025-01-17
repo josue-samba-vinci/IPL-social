@@ -16,6 +16,9 @@ describe('Password Validation', () => {
   test('should fail if password does not contain a digit', () => {
     expect(validatePassword('abcdefg!')).toBe(false);
   });
-  
+
+  test('should fail if password contains "IPL" (case insensitive)', () => {
+    expect(validatePassword('IPL123!abc')).toBe(false);
+});
 
 });
